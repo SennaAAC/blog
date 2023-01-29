@@ -62,7 +62,7 @@ Then we just need to add an index.html file in the root of folder:
 
 And away we go by running the command ```trunk serve``` (not cargo run otherwise you get some ugly errors about non-wasm targets).
 
-<!-- ![A plain white webpage showing the words Hello World in the top left](/.vercel/output/static/images/1/yew_hello_world.png) -->
+![A plain white webpage showing the words Hello World in the top left](/one/yew_hello_world.png)
 
 And there we have it! A Rust written web application running on WASM.
 
@@ -134,7 +134,7 @@ fn App() -> Html {
 ```
 It compiles and we now have a button, albeit a rather sad looking one.
 
-<!-- ![Here we go](/.vercel/output/static/images/1/yew_button_component.png) -->
+![A white webpage with a button saying 'this is a button' and some text saying 'Hello World'](/one/yew_button_component.png)
 
 A question I have here, is what is that curious looking ```#[function_component]``` at the top of our function. As a primarily Python developer, the thing that came to mind when I saw one of these for the first time is "What a very strange comment that is".
 
@@ -325,7 +325,7 @@ fn App() -> Html {
 
 It compiles, and does it output our expected behaviour? It does!
 
-<!-- ![Here we go](/.vercel/output/static/images/1/yew_state_example.png) -->
+![A white webpage with a button saying 'this is a button' and some text saying 'Hello World'](/one/yew_button_component.png)
 
 Okay okay, now let's get into actually making the counter.
 
@@ -539,7 +539,7 @@ And then linking this stylesheet as well to our ```index.html``` page so that th
 
 And finally, after much Rust compiler head banging, we have a fully functioning button counter app which looks quite nice, dark theme naturally.
 
-<!-- ![test](/.vercel/output/static/images/1/yew_styled.png) -->
+![A dark navy webpage with a central button with a 0 on it](/one/yew_styled.png)
 
 Now you might be sitting there thinking, hang on a minute Sam, I just checked out the Yew website and you've pretty much got exactly what they've got in their tutorial...
 
