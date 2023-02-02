@@ -27,9 +27,8 @@
 
     @media (min-width: 320px) and (max-width: 769px) {
       main {
-        max-width: 300px;
-        margin: 20px auto;
-        font-size: 10px;
+        max-width: 400px;
+        margin: 10px auto;
       }
     }
   

@@ -572,22 +572,4 @@ fn main() {
 
 Yep, bang on. But think about all the fun we've (well I've) had along the way reading through documentation, and most importantly learning **why** it is that a simple counter app is built like that. At the end of the day I've learnt something, and hope you have too.
 
-Returning to the title of this post and what we've covered. I now understand the very basics of how to build a web application with Yew, I've utilised Pico CSS to avoid writing as much CSS. It seems that my next challenge will be a way to write as little HTML as possible, and to serve my blog posts statically from within the web application. Stay tuned for part 2!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Returning to the title of this post and what we've covered. I now understand the very basics of how to build a web application with Yew, I've utilised Pico CSS to avoid writing as much CSS. It seems that my next challenge will be a way to write as little HTML as possible, and to serve my blog posts statically from within the web application. Stay tuned for [part 2](/blog/2)!
