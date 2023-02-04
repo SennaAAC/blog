@@ -14,10 +14,11 @@
 <style>
     .card {
         text-align: center;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 0.5px 1px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
         transition: all .2s ease-in-out;
         margin-top: 5px;
         margin-bottom: 5px;
+        border-radius: 15px;
     }
 
     h3 {
@@ -25,12 +26,14 @@
     }
 
     .card:hover {
-        box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+        box-shadow: rgba(101, 4, 204, 0.3) 0px 5px 10px;
         cursor: pointer;
-        transform: translate3d(0px, -2px, 0px);
+        transform: translate3d(0px, -1.25px, 0px);
     }
 
-    a:hover {
+    a:hover, a:focus {
         text-decoration: none;
+        background-color: none;
+        --background-color:none;
     }
 </style>

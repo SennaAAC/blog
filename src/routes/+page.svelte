@@ -19,7 +19,7 @@
             <li>Guitar and Piano</li> 
             <li>Skiing and Kitesurfing</li>
             <li>Cooking</li>
-            <li>Chess (Send me a friend request on chess.com! rsam98 - I'm not very good.)</li>
+            <li>Chess</li>
         </ul>
     </div>
     <div class="about"> My Favourite Tech ...

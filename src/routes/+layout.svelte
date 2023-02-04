@@ -20,16 +20,51 @@
   <style>
   
     main {
-            padding-top: 50px;
-            max-width: 1080px;
-            margin: 20px auto;
-        }
+        padding-top: 50px;
+    }
 
-    @media (min-width: 320px) and (max-width: 769px) {
+    @media (min-width:320px){
+      main {
+        max-width: 280px;
+        margin: 10px auto;
+      }
+    }
+    @media (min-width:481px){
       main {
         max-width: 400px;
         margin: 10px auto;
       }
     }
+    @media (min-width:641px) {
+      main {
+        max-width: 560px;
+        margin: 10px auto;
+      }
+    }
+    @media (min-width:961px) {
+      main {
+        max-width: 750px;
+        margin: 10px auto;
+      }
+    }
+    @media (min-width:1025px) {
+      main {
+        max-width: 900px;
+        margin: 10px auto;
+      }
+    }
+    @media (min-width:1281px) {
+      main {
+        max-width: 1100;
+        margin: 10px auto;
+      }
+    }
+
+    /* @media (min-width: 320px) and (max-width: 769px) {
+      main {
+        max-width: 400px;
+        margin: 10px auto;
+      }
+    } */
   
   </style>
