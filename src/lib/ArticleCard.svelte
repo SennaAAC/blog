@@ -16,9 +16,9 @@
         text-align: center;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
         transition: all .2s ease-in-out;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin: 5px auto;
         border-radius: 15px;
+        max-width: 500px;
     }
 
     h3 {
