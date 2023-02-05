@@ -12,6 +12,11 @@
 </a>
 
 <style>
+    a {
+        margin: 5px auto;
+        max-width: 500px; 
+    }
+    
     .card {
         text-align: center;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
