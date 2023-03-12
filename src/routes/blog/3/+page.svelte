@@ -1,9 +1,9 @@
 <script>
     import Blog from "./blog.md";
-    let title = "Let's write a blog in Rust - Part 2"
+    let title = "Let's write a blog in Rust - Part 3"
     let date = "2023-02-01"
-    let subtitle = "By building a desktop application first... "
-    let topics = ["Rust", "Egui", "Process Spawning"]
+    let subtitle = "This is just a rewrite of the last post but with Tauri ... "
+    let topics = ["Rust", "Tauri", "Typescript", "SvelteKit"]
 </script>
 
 <p class="date">{date}</p>

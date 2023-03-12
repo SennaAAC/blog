@@ -7,18 +7,18 @@
 <script>
     import Header from "$lib/Header.svelte";
     import Footer from "$lib/Footer.svelte";
-  </script>
+</script>
   
-  <Header/>
+<Header/>
   
-  <main>
+<main>
     <slot></slot>
-  </main>
-  
-  <Footer/>
-  
-  <style>
-  
+</main>
+
+<Footer/>
+
+<style>
+
     main {
         padding-top: 50px;
     }
@@ -60,11 +60,4 @@
       }
     }
 
-    /* @media (min-width: 320px) and (max-width: 769px) {
-      main {
-        max-width: 400px;
-        margin: 10px auto;
-      }
-    } */
-  
-  </style>
+</style>
