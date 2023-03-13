@@ -1,6 +1,6 @@
 ### Preface
 
-As the subtitle of this post may imply, I am once again going on a tangent here from my main goal. In the last post I built an Markdown -> HTML converter with Egui, but I wasn't happy with just seeing the raw HTML, I wanted to see the rendered HTML as if it was on my blog. Of course I'm sure there is a way to hack around this as Egui has web native capabilities, but I took this chance to take a look into Tauri.
+As the subtitle of this post may imply, I am once again going on a tangent here from my main goal. In the last post I built a Markdown -> HTML converter with Egui, but I wasn't happy with just seeing the raw HTML, I wanted to see the rendered HTML as if it was on my blog. Of course I'm sure there is a way to hack around this as Egui has web native capabilities, but I took this chance to take a look into Tauri.
 
 As per the Tauri [website](https://tauri.app/), Tauri allows you to "Build an optimized, secure, and frontend-independent application for multi-platofmr deployment", nice. For those familiar with Electron (which is being used as I'm writing this as it was used to build VS Code - ERRATA, I switched to NeoVim for, uh, reasons?), it's very similar except using a lightweight Rust backend instead of Node.
 
